@@ -1,0 +1,11 @@
+{
+  "region": "Chennai",
+  "source_sheet": "Chennai (Tamil Nadu) Region",
+  "structure": "status_only",
+  "record_count": 1,
+  "records": [
+    {
+      "status": "No meetup"
+    }
+  ]
+}

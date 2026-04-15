@@ -1,0 +1,82 @@
+[
+  {
+    "region": "Bengaluru",
+    "source_sheet": "Bengaluru (Karnataka, Kerala) R",
+    "structure": "table",
+    "record_count": 1,
+    "csv_file": "csv/bengaluru_region.csv",
+    "json_file": "json/bengaluru_region.json"
+  },
+  {
+    "region": "Chennai",
+    "source_sheet": "Chennai (Tamil Nadu) Region",
+    "structure": "status_only",
+    "record_count": 1,
+    "csv_file": "csv/chennai_region.csv",
+    "json_file": "json/chennai_region.json"
+  },
+  {
+    "region": "Hyderabad",
+    "source_sheet": "Hyderabad (AP & Telangana) Regi",
+    "structure": "table",
+    "record_count": 4,
+    "csv_file": "csv/hyderabad_region.csv",
+    "json_file": "json/hyderabad_region.json"
+  },
+  {
+    "region": "Chandigarh",
+    "source_sheet": "Chandigarh(PunjabUKHPRajasthanH",
+    "structure": "empty_sheet",
+    "record_count": 0,
+    "csv_file": "csv/chandigarh_region.csv",
+    "json_file": "json/chandigarh_region.json"
+  },
+  {
+    "region": "Delhi",
+    "source_sheet": "Delhi (Delhi-NCR) Region",
+    "structure": "table",
+    "record_count": 10,
+    "csv_file": "csv/delhi_region.csv",
+    "json_file": "json/delhi_region.json"
+  },
+  {
+    "region": "Kolkata",
+    "source_sheet": "Kolkata (WB, NE, Odisha) Region",
+    "structure": "transposed_records",
+    "record_count": 5,
+    "csv_file": "csv/kolkata_region.csv",
+    "json_file": "json/kolkata_region.json"
+  },
+  {
+    "region": "Lucknow",
+    "source_sheet": "Lucknow (UP, Gwalior) Region",
+    "structure": "empty_sheet",
+    "record_count": 0,
+    "csv_file": "csv/lucknow_region.csv",
+    "json_file": "json/lucknow_region.json"
+  },
+  {
+    "region": "Mumbai",
+    "source_sheet": "Mumbai (MaharashtraGujarat) Reg",
+    "structure": "table",
+    "record_count": 13,
+    "csv_file": "csv/mumbai_region.csv",
+    "json_file": "json/mumbai_region.json"
+  },
+  {
+    "region": "Patna",
+    "source_sheet": "Patna (Bihar, Jharkhand, Chatti",
+    "structure": "table",
+    "record_count": 12,
+    "csv_file": "csv/patna_region.csv",
+    "json_file": "json/patna_region.json"
+  },
+  {
+    "region": "International",
+    "source_sheet": "International Region",
+    "structure": "raw_single_row",
+    "record_count": 1,
+    "csv_file": "csv/international_region.csv",
+    "json_file": "json/international_region.json"
+  }
+]
