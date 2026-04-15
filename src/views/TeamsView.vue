@@ -677,7 +677,7 @@
          <!-- ══ Himanshu Sharma  ══ -->
         <div class="tm-card rc" style="--card-delay:0.1s">
           <div class="tm-photo-wrap">
-            <img src="@/assets/teams/Samar.jpeg" alt="Himanshu Sharma "
+            <img src="@/assets/teams/Himanshu.jpg" alt="Himanshu Sharma "
               @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='flex'">
             <div class="tm-no-photo" style="display:none">HS</div>
             <div class="tm-overlay">
