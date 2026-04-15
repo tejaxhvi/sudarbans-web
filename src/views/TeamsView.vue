@@ -379,11 +379,11 @@
             <div class="tm-no-photo" style="display:none">DG</div>
             <div class="tm-overlay">
               <div class="tm-name">Dishi Gupta</div>
-              <div class="tm-role">📍 Delhi</div>
+              <div class="tm-role">📍 Hyderabad</div>
             </div>
           </div>
           <div class="tm-info">
-            <div class="tm-level">Diploma · Data Science</div>
+            <div class="tm-level">Foundation · Data Science</div>
             <div class="tm-socials">
               <a href="mailto:member@example.com" class="tm-soc" title="Email"><svg width="13" height="13"
                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -474,7 +474,7 @@
               @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='flex'">
             <div class="tm-no-photo" style="display:none">RS</div>
             <div class="tm-overlay">
-              <div class="tm-name">R Sai Sahaana</div>
+              <div class="tm-name">R Sai Sahanaa</div>
               <div class="tm-role">📍 Chennai</div>
             </div>
           </div>
@@ -710,7 +710,7 @@
         <!-- ══ AVNEESH SINGH ══ -->
         <div class="tm-card rc" style="--card-delay:0.1s">
           <div class="tm-photo-wrap">
-            <img src="@/assets/teams/mannu.jpg" alt="AVNEESH SINGH"
+            <img src="@/assets/teams/Avneesh.jpg" alt="AVNEESH SINGH"
               @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='flex'">
             <div class="tm-no-photo" style="display:none">MY</div>
             <div class="tm-overlay">
@@ -743,7 +743,7 @@
         <!-- ══ Abhisekh Chowdhury  ══ -->
         <div class="tm-card rc" style="--card-delay:0.1s">
           <div class="tm-photo-wrap">
-            <img src="@/assets/teams/aditya.jpeg" alt="Abhisekh Chowdhury "
+            <img src="@/assets/teams/Abhishekh.jpg" alt="Abhisekh Chowdhury "
               @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='flex'">
             <div class="tm-no-photo" style="display:none">AV</div>
             <div class="tm-overlay">
