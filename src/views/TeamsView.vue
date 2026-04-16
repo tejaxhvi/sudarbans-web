@@ -1043,11 +1043,11 @@ useScrollReveal();
       .tm-lead-grid,
       .tm-webops-grid,
       .tm-lower-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
       }
 
       .tm-comm-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
       }
     }
 
