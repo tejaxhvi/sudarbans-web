@@ -677,7 +677,7 @@
          <!-- ══ Himanshu Sharma  ══ -->
         <div class="tm-card rc" style="--card-delay:0.1s">
           <div class="tm-photo-wrap">
-            <img src="@/assets/teams/Himanshu.jpg" alt="Himanshu Sharma "
+            <img :src="imgHimanshu" alt="Himanshu Sharma"
               @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='flex'">
             <div class="tm-no-photo" style="display:none">HS</div>
             <div class="tm-overlay">
@@ -710,7 +710,7 @@
         <!-- ══ AVNEESH SINGH ══ -->
         <div class="tm-card rc" style="--card-delay:0.1s">
           <div class="tm-photo-wrap">
-            <img src="@/assets/teams/Avneesh.jpg" alt="AVNEESH SINGH"
+            <img :src="imgAvneesh" alt="AVNEESH SINGH"
               @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='flex'">
             <div class="tm-no-photo" style="display:none">MY</div>
             <div class="tm-overlay">
@@ -743,11 +743,11 @@
         <!-- ══ Abhisekh Chowdhury  ══ -->
         <div class="tm-card rc" style="--card-delay:0.1s">
           <div class="tm-photo-wrap">
-            <img src="@/assets/teams/Abhishekh.jpg" alt="Abhisekh Chowdhury "
+            <img :src="imgAbhishekh" alt="Abhisekh Chowdhury"
               @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='flex'">
             <div class="tm-no-photo" style="display:none">AV</div>
             <div class="tm-overlay">
-              <div class="tm-name">Abhisekh Chowdhury </div>
+              <div class="tm-name">Abhisekh Chowdhury</div>
               <div class="tm-role">Cultural</div>
             </div>
           </div>
@@ -781,6 +781,12 @@
 
 <script setup>
 import { useScrollReveal } from "../composables/useAnimations.js";
+
+// Import Community Head Images
+import imgHimanshu from "@/assets/teams/Himanshu.jpg";
+import imgAvneesh from "@/assets/teams/Avneesh.jpg";
+import imgAbhishekh from "@/assets/teams/Abhishekh.jpg";
+
 useScrollReveal();
 </script>
 
@@ -1048,7 +1054,6 @@ useScrollReveal();
     [data-theme="light"] .tm-photo-wrap::after {
       background: linear-gradient(to top, rgba(5, 5, 5, 0.88) 0%, rgba(5, 5, 5, 0.3) 45%, transparent 70%);
     }
-
     [data-theme="light"] .tm-card,
     [data-theme="light"] .tm-comm-card {
       background: #fff;
