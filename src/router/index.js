@@ -24,6 +24,7 @@ import KolkataMeetups    from '../views/meetups/KolkataMeetups.vue'
 import HyderabadMeetups  from '../views/meetups/HyderabadMeetups.vue'
 import PatnaMeetups      from '../views/meetups/PatnaMeetups.vue'
 import ChandigarhMeetups from '../views/meetups/ChandigarhMeetups.vue'
+
 const routes = [
   { path: '/',       component: Home    },
   { path: '/about',  component: About   },
@@ -32,6 +33,7 @@ const routes = [
   { path: '/teams',  component: Teams   },
   { path: '/contact', component: Contact },
   { path: '/members', component: Login   },
+  { path: '/lounge',  component: MembersLounge, meta: { requiresAuth: true } },
 
   // Community + sub-pages
   { path: '/community',           component: Community     },
