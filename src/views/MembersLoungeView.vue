@@ -148,7 +148,7 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from "vue";
 import { useRouter } from "vue-router";
-import membersData from "../../sundarbans/members.json";
+import membersData from "../data/members.json";
 import MembersNavbar from "../components/MembersNavbar.vue";
 
 const router = useRouter();
