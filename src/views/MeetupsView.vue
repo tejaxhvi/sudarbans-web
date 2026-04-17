@@ -176,34 +176,32 @@ const activeTab = ref('All Time')
 const members = [
   {
     rank: '🥇', rankClass: 'rank-1',
-    name: 'Rushabh Kapse', city: 'Mumbai', points: '1,400', badge: '🔥 Top Contributor',
-    img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80&auto=format&fit=crop&crop=face',
+    name: 'Rushabh Kapse', city: 'Mumbai', points: '1,300', badge: 'Apex', initial: 'R',
+  
   },
   {
     rank: '🥈', rankClass: 'rank-2',
-    name: 'Nivash Kumar', city: 'Patna', points: '1,000', badge: '⭐ Helper',
-    img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80&auto=format&fit=crop&crop=face',
+    name: 'Nivash Kumar', city: 'Patna', points: '1,200', badge: ' Zenith', initial: 'N',
   },
   {
     rank: '🥉', rankClass: 'rank-3',
-    name: 'Divya Prakash', city: 'Delhi NCR', points: '1,000', badge: '📚 Academician',
-    img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80&auto=format&fit=crop&crop=face',
+    name: 'Divya Prakash', city: 'Delhi NCR', points: '1,000', badge: ' Pinnacle', initial: 'D',
   },
   {
     rank: '4', rankClass: '',
-    name: 'AAkash Rawal', city: 'Chandigarh', points: '900', badge: '🎯 Event Pro', initial: 'S',
+    name: 'AAkash Rawal', city: 'Chandigarh', points: '800', badge: ' Summit', initial: 'A',
   },
   {
     rank: '5', rankClass: '',
-    name: 'Chandan Saw', city: 'Kolkata', points: '700', badge: '💡 Innovator', initial: 'V',
+    name: 'Chandan Saw', city: 'Kolkata', points: '500', badge: ' Ascent', initial: 'C',
   },
   {
     rank: '6', rankClass: '',
-    name: 'Dishi Gupta', city: 'Hyderabad', points: '400', badge: '🤝 Community Builder', initial: 'A',
+    name: 'Dishi Gupta', city: 'Hyderabad', points: '400', badge: ' Rise', initial: 'A',
   },
    {
     rank: '7', rankClass: '',
-    name: 'R Sai Sahanaa', city: 'Hyderabad', points: '400', badge: '🤝 Community Builder', initial: 'A',
+    name: 'R Sai Sahanaa', city: 'Hyderabad', points: '100', badge: ' Ignite', initial: 'A',
   },
  
   
