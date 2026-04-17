@@ -14,7 +14,7 @@
       <div class="hero-content" id="heroContent">
         <div class="hero-badge animate-in" style="--delay: 0.1s">
           <span class="badge-dot"></span>
-          IIT Madras BS Online Degree Programme
+          IIT Madras BS Degree Programme
         </div>
         <h1 class="hero-title animate-in" style="--delay: 0.3s">
           <span class="hero-title-sm">Welcome to</span>
@@ -70,10 +70,7 @@
           </div>
         </div>
       </div>
-      <div class="hero-scroll-indicator">
-        <div class="scroll-text">Scroll to explore</div>
-        <div class="scroll-line"><div class="scroll-dot-anim"></div></div>
-      </div>
+  
     </section>
 
     <!-- MARQUEE -->
