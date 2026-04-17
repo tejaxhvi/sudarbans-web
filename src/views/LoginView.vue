@@ -116,7 +116,7 @@
 <script setup>
 import { computed, onMounted, onUnmounted, ref } from "vue";
 import { useRouter } from "vue-router";
-import membersData from "../../sundarbans/members.json";
+import membersData from "../data/members.json";
 
 const email = ref("");
 const loading = ref(false);
