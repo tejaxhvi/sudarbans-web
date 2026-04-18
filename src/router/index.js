@@ -32,7 +32,7 @@ const routes = [
   { path: '/study',  component: Study   },
   { path: '/teams',  component: Teams   },
   { path: '/contact', component: Contact },
-  { path: '/members', component: Login   },
+  { path: '/login', component: Login   },
   { path: '/lounge',  component: MembersLounge, meta: { requiresAuth: true } },
 
   // Community + sub-pages
