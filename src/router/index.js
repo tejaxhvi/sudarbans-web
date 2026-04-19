@@ -24,6 +24,7 @@ import KolkataMeetups    from '../views/meetups/KolkataMeetups.vue'
 import HyderabadMeetups  from '../views/meetups/HyderabadMeetups.vue'
 import PatnaMeetups      from '../views/meetups/PatnaMeetups.vue'
 import ChandigarhMeetups from '../views/meetups/ChandigarhMeetups.vue'
+import NotFoundView      from '../views/NotFoundView.vue'
 
 const routes = [
   { path: '/',       component: Home    },
@@ -32,7 +33,7 @@ const routes = [
   { path: '/study',  component: Study   },
   { path: '/teams',  component: Teams   },
   { path: '/contact', component: Contact },
-  { path: '/members', component: Login   },
+  { path: '/login', component: Login   },
   { path: '/lounge',  component: MembersLounge, meta: { requiresAuth: true } },
 
   // Community + sub-pages
@@ -49,7 +50,10 @@ const routes = [
   { path: '/meetups/kolkata',    component: KolkataMeetups    },
   { path: '/meetups/hyderabad',  component: HyderabadMeetups  },
   { path: '/meetups/patna',      component: PatnaMeetups      },
-  { path: '/meetups/chandigarh', component: ChandigarhMeetups }
+  { path: '/meetups/chandigarh', component: ChandigarhMeetups },
+
+  // 404 catch-all
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFoundView }
 
 ]
 
